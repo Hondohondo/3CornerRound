@@ -48,9 +48,19 @@ body {
   min-height: 50rem; }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2); }
+  border-bottom: var(--color-grey-light-2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .content {
   display: -webkit-box;
@@ -69,3 +79,16 @@ body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
+
+.logo {
+  height: 3.25rem;
+  margin-left: 3rem; }
+
+.main-nav {
+  background-color: indianred; }
+  .main-nav__icon {
+    height: 2.25rem;
+    width: 2.25rem; }
+  .main-nav__login-photo {
+    height: 3.75rem;
+    border-radius: 50%; }

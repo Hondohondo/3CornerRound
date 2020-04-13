@@ -1,0 +1,42 @@
+////////////////////////////////////////////
+////////  LOGO
+.logo {
+  height: 3.25rem;
+  margin-left: 3rem;
+}
+
+
+////////////////////////////////////////////
+////////  MAIN-NAV
+
+.main-nav {
+  background-color: indianred;
+
+  &__icon-box {
+
+  }
+
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+
+  }
+
+  &__notification {
+
+  }
+
+  &__login {
+
+  }
+
+  &__login-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+
+  }
+
+  &__login-name {
+
+  }
+}

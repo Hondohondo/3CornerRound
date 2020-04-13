@@ -8,9 +8,14 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -30,6 +35,6 @@
   background-color: #fff;
   background-color: indianred;
 
-  flex: 1;
+  flex: 1; //grow as much as it can
 
 }
